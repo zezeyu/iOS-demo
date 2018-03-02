@@ -15,6 +15,14 @@
 		E1F042812049940400C898AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042802049940400C898AA /* main.m */; };
 		E1F0428B2049940400C898AA /* InputBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0428A2049940400C898AA /* InputBoxTests.m */; };
 		E1F042962049940400C898AA /* InputBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042952049940400C898AA /* InputBoxUITests.m */; };
+		E1F042A5204998C300C898AA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042A4204998C300C898AA /* BaseViewController.m */; };
+		E1F042A9204998E400C898AA /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042A7204998E400C898AA /* OneViewController.m */; };
+		E1F042AA204998E400C898AA /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F042A8204998E400C898AA /* OneViewController.xib */; };
+		E1F042AE204998F400C898AA /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042AC204998F400C898AA /* TwoViewController.m */; };
+		E1F042AF204998F400C898AA /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F042AD204998F400C898AA /* TwoViewController.xib */; };
+		E1F042B32049991B00C898AA /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042B12049991B00C898AA /* ThreeViewController.m */; };
+		E1F042B42049991B00C898AA /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F042B22049991B00C898AA /* ThreeViewController.xib */; };
+		E1F042B92049A0A200C898AA /* UIButton+toos.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F042B82049A0A200C898AA /* UIButton+toos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		E1F042912049940400C898AA /* InputBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F042952049940400C898AA /* InputBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputBoxUITests.m; sourceTree = "<group>"; };
 		E1F042972049940400C898AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F042A3204998C300C898AA /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E1F042A4204998C300C898AA /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E1F042A6204998E400C898AA /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		E1F042A7204998E400C898AA /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		E1F042A8204998E400C898AA /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
+		E1F042AB204998F400C898AA /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		E1F042AC204998F400C898AA /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		E1F042AD204998F400C898AA /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		E1F042B02049991B00C898AA /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		E1F042B12049991B00C898AA /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		E1F042B22049991B00C898AA /* ThreeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		E1F042B72049A0A200C898AA /* UIButton+toos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+toos.h"; sourceTree = "<group>"; };
+		E1F042B82049A0A200C898AA /* UIButton+toos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+toos.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +126,19 @@
 				E1F042722049940400C898AA /* AppDelegate.m */,
 				E1F042742049940400C898AA /* ViewController.h */,
 				E1F042752049940400C898AA /* ViewController.m */,
+				E1F042B72049A0A200C898AA /* UIButton+toos.h */,
+				E1F042B82049A0A200C898AA /* UIButton+toos.m */,
+				E1F042A3204998C300C898AA /* BaseViewController.h */,
+				E1F042A4204998C300C898AA /* BaseViewController.m */,
+				E1F042A6204998E400C898AA /* OneViewController.h */,
+				E1F042A7204998E400C898AA /* OneViewController.m */,
+				E1F042A8204998E400C898AA /* OneViewController.xib */,
+				E1F042AB204998F400C898AA /* TwoViewController.h */,
+				E1F042AC204998F400C898AA /* TwoViewController.m */,
+				E1F042AD204998F400C898AA /* TwoViewController.xib */,
+				E1F042B02049991B00C898AA /* ThreeViewController.h */,
+				E1F042B12049991B00C898AA /* ThreeViewController.m */,
+				E1F042B22049991B00C898AA /* ThreeViewController.xib */,
 				E1F042772049940400C898AA /* Main.storyboard */,
 				E1F0427A2049940400C898AA /* Assets.xcassets */,
 				E1F0427C2049940400C898AA /* LaunchScreen.storyboard */,
@@ -241,6 +275,9 @@
 				E1F0427E2049940400C898AA /* LaunchScreen.storyboard in Resources */,
 				E1F0427B2049940400C898AA /* Assets.xcassets in Resources */,
 				E1F042792049940400C898AA /* Main.storyboard in Resources */,
+				E1F042AF204998F400C898AA /* TwoViewController.xib in Resources */,
+				E1F042AA204998E400C898AA /* OneViewController.xib in Resources */,
+				E1F042B42049991B00C898AA /* ThreeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F042762049940400C898AA /* ViewController.m in Sources */,
+				E1F042B32049991B00C898AA /* ThreeViewController.m in Sources */,
+				E1F042A9204998E400C898AA /* OneViewController.m in Sources */,
+				E1F042A5204998C300C898AA /* BaseViewController.m in Sources */,
+				E1F042B92049A0A200C898AA /* UIButton+toos.m in Sources */,
+				E1F042AE204998F400C898AA /* TwoViewController.m in Sources */,
 				E1F042812049940400C898AA /* main.m in Sources */,
 				E1F042732049940400C898AA /* AppDelegate.m in Sources */,
 			);
