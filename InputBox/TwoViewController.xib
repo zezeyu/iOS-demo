@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TwoViewController">
+            <connections>
+                <outlet property="TF1" destination="srx-t7-1VN" id="8n9-P9-oEU"/>
+                <outlet property="TF2" destination="fKX-4I-Nlr" id="MQV-DK-W3D"/>
+                <outlet property="TF3" destination="NTc-FU-MZW" id="7Xr-lZ-gIp"/>
+                <outlet property="button" destination="8mu-p0-abE" id="W7o-RS-hrc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="srx-t7-1VN">
+                    <rect key="frame" x="50" y="107" width="275" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fKX-4I-Nlr">
+                    <rect key="frame" x="50" y="187" width="275" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NTc-FU-MZW">
+                    <rect key="frame" x="50" y="267" width="275" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8mu-p0-abE">
+                    <rect key="frame" x="50" y="366" width="275" height="46"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="owX-ku-p13"/>
+                    </constraints>
+                    <state key="normal" title="还没输入完"/>
+                    <connections>
+                        <action selector="pop_Basecontroller:" destination="-1" eventType="touchUpInside" id="Dgh-hE-Ms4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="srx-t7-1VN" secondAttribute="trailing" constant="50" id="1PV-lo-PNx"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="8mu-p0-abE" secondAttribute="trailing" constant="50" id="DgN-pS-qmv"/>
+                <constraint firstItem="NTc-FU-MZW" firstAttribute="top" secondItem="fKX-4I-Nlr" secondAttribute="bottom" constant="50" id="Dwj-QB-7ZJ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="fKX-4I-Nlr" secondAttribute="trailing" constant="50" id="K6K-hn-gNI"/>
+                <constraint firstItem="fKX-4I-Nlr" firstAttribute="top" secondItem="srx-t7-1VN" secondAttribute="bottom" constant="50" id="Ois-9J-EwY"/>
+                <constraint firstItem="srx-t7-1VN" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="87" id="PkF-XE-sTH"/>
+                <constraint firstItem="fKX-4I-Nlr" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="UUi-YV-I9o"/>
+                <constraint firstItem="NTc-FU-MZW" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="cFd-hi-0EC"/>
+                <constraint firstItem="8mu-p0-abE" firstAttribute="top" secondItem="NTc-FU-MZW" secondAttribute="bottom" constant="69" id="lXe-Uq-g9C"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="NTc-FU-MZW" secondAttribute="trailing" constant="50" id="ulA-fU-HwV"/>
+                <constraint firstItem="8mu-p0-abE" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="vWI-20-l9k"/>
+                <constraint firstItem="srx-t7-1VN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="50" id="w5p-jt-2DV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-245" y="-27"/>
+        </view>
+    </objects>
+</document>
